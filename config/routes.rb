@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   get 'demo/index'
   get 'demo/iseng'
   get 'demo/cak'
