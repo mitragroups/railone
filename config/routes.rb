@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  get 'home/index'
   get 'demo/index'
   get 'demo/iseng'
   get 'demo/cak'
   get 'demo/coba'
+
+  get 'home/index'
+  get 'home/rumah'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
