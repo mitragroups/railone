@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'demo/iseng'
   get 'demo/cak'
   get 'demo/coba'
+  get 'demo/looping'
 
   get 'home/index'
   get 'home/rumah'

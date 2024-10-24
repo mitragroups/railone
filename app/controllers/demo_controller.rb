@@ -14,4 +14,8 @@ class DemoController < ApplicationController
     render plain: 'JSON Coba'
   end
 
+  def looping
+    @loop = "This is method for looping"
+  end
+
 end
