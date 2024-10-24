@@ -1,5 +1,6 @@
 class DemoController < ApplicationController
   def index
+    @value = 'This method for looping'
   end
 
   def iseng
@@ -16,7 +17,7 @@ class DemoController < ApplicationController
 
 
   def looping
-    render plain: 'Try to looping'
+    @array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   end
 
 end
