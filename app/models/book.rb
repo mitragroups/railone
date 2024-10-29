@@ -6,4 +6,8 @@ class Book < ApplicationRecord
   def self.equal_more(price)
     where('price >= ?', price).pluck(:title, :price)
   end
+
+  def self.expensive
+    where('price > 300000').pluck(:title, :price)
+  end
 end
