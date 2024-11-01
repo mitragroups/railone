@@ -7,7 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-
+=begin
 Book.create(title: 'Flutter', price: 150_000, page: 150, description: 'Bagus untuk membuat aplikasi mobile')
 Book.create(title: 'Go Lang', price: 75_000, page: 75, description: 'Agak sulit karena untuk backend dan functional programming')
 Book.create(title: 'Springboot', price: 800_000, page: 800, description: 'Super Lengkap untuk Framework Springboot Java')
+=end
