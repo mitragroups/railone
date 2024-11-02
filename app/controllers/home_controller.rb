@@ -5,4 +5,8 @@ class HomeController < ApplicationController
   def rumah
     redirect_to controller: 'demo', action: 'iseng'
   end
+
+  def tua
+    @authors = Author.oldest
+  end
 end
