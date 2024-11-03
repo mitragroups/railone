@@ -7,6 +7,11 @@ class HomeController < ApplicationController
   end
 
   def tua
-    @authors = Author.oldest
+    @author_oldest = Author.oldest
+  end
+
+  def penulis_pria
+    @male_author = Author.author_male
+    render json: @male_author
   end
 end
