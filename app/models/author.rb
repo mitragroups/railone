@@ -6,4 +6,8 @@ class Author < ApplicationRecord
   def self.oldest
     order(age: :desc)
   end
+
+  def self.youngest
+    order(age: :asc)
+  end
 end
